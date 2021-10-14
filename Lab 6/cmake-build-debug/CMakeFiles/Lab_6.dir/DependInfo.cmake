@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/masri/CLionProjects/CMSC 257/Lab 6/dynamic.c" "C:/Users/masri/CLionProjects/CMSC 257/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/dynamic.c.obj"
+  "/Users/masrikdahir/CLionProjects/Computer-System/Lab 6/dynamic.c" "/Users/masrikdahir/CLionProjects/Computer-System/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/dynamic.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

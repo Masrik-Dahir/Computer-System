@@ -1,3 +1,3 @@
-C:/Users/masri/CLionProjects/CMSC 257/Lab 6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/masri/CLionProjects/CMSC 257/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir
-C:/Users/masri/CLionProjects/CMSC 257/Lab 6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/masrikdahir/CLionProjects/Computer-System/Lab 6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/masrikdahir/CLionProjects/Computer-System/Lab 6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/masrikdahir/CLionProjects/Computer-System/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir
