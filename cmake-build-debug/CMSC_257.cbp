@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CMSC_257"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\HW_5\;CMake Files\Lab_3\;CMake Files\Lab_4\;CMake Files\Lab_5\;CMake Files\Lab_6\;CMake Files\Lab_7\;CMake Files\Project_1\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Computer_System">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Computer_System.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 Computer_System"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Computer_System/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Computer_System.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 Computer_System/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW_5">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/HW_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\HW_5\Makefile VERBOSE=1 HW_5"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\HW_5\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\HW_5\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\HW_5\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW_5/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/HW_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\HW_5\Makefile VERBOSE=1 HW_5/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\HW_5\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\HW_5\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\HW_5\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_3">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Lab_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_3\Makefile VERBOSE=1 Lab_3"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_3\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_3\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_3\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_3/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Lab_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_3\Makefile VERBOSE=1 Lab_3/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_3\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_3\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_3\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_4">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Lab_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_4\Makefile VERBOSE=1 Lab_4"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_4\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_4\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_4\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_4/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Lab_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_4\Makefile VERBOSE=1 Lab_4/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_4\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_4\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_4\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_5">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Lab_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_5\Makefile VERBOSE=1 Lab_5"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_5\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_5\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_5\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_5/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Lab_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_5\Makefile VERBOSE=1 Lab_5/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_5\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_5\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_5\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_6">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Lab_6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_6\Makefile VERBOSE=1 Lab_6"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_6\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_6\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_6\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_6/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Lab_6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_6\Makefile VERBOSE=1 Lab_6/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_6\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_6\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_6\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_7">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Lab_7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_7\Makefile VERBOSE=1 Lab_7"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_7\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_7\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_7\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_7/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Lab_7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_7\Makefile VERBOSE=1 Lab_7/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_7\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_7\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Lab_7\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_1">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Project_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Project_1\Makefile VERBOSE=1 Project_1"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Project_1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Project_1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Project_1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_1/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Project_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Project_1\Makefile VERBOSE=1 Project_1/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Project_1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Project_1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\Project_1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/HW_5/main.c">
+			<Option target="HW_5"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/lab3header.h">
+			<Option target="Lab_3"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/lab3main.c">
+			<Option target="Lab_3"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/lab3support.c">
+			<Option target="Lab_3"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_4/lab4.c">
+			<Option target="Lab_4"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_5/integer-rep.c">
+			<Option target="Lab_5"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_6/dynamic.c">
+			<Option target="Lab_6"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_7/lab7.c">
+			<Option target="Lab_7"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/cmsc257-f21-p1.c">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/p1-support.c">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/p1-support.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/main.c">
+			<Option target="Computer_System"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/HW_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\HW_5\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_3\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_4\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_5\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_6\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_7\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Project_1\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
