@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab_6.dir/dynamic.c.obj"
-  "Lab_6.exe"
-  "Lab_6.exe.manifest"
-  "Lab_6.lib"
+  "CMakeFiles/Lab_6.dir/dynamic.c.o"
+  "Lab_6"
   "Lab_6.pdb"
 )
 

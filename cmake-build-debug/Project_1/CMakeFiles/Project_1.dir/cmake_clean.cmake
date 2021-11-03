@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Project_1.dir/cmsc257-f21-p1.c.obj"
-  "CMakeFiles/Project_1.dir/p1-support.c.obj"
-  "Project_1.exe"
-  "Project_1.exe.manifest"
-  "Project_1.lib"
+  "CMakeFiles/Project_1.dir/cmsc257-f21-p1.c.o"
+  "CMakeFiles/Project_1.dir/p1-support.c.o"
+  "Project_1"
   "Project_1.pdb"
 )
 

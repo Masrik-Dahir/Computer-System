@@ -33,5 +33,8 @@ add_subdirectory(Project_1)
 # Project 1 Executable
 #add_executable(${PROJECT_NAME} Project_1 Project_1/p1-support.c Project_1/p1-support.h Project_1/cmsc257-f21-p1.c)
 
+# Project 2 Executable
+add_executable(${PROJECT_NAME} Project_2 Project_2/p2-support.c Project_2/p2-support.h Project_2/cmsc257-f21-p2.c)
+
 # Main
-add_executable(Computer_System main.c)
+#add_executable(Computer_System main.c)

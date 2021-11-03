@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/masri/CLionProjects/Computer-System/Lab_5/integer-rep.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/CMakeFiles/Lab_5.dir/integer-rep.c.obj"
+  "/Users/masrikdahir/CLionProjects/Computer-System/Lab_5/integer-rep.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/CMakeFiles/Lab_5.dir/integer-rep.c.o"
   )
-set(CMAKE_C_COMPILER_ID "MSVC")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

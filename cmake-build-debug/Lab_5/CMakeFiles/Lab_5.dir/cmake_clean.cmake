@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab_5.dir/integer-rep.c.obj"
-  "Lab_5.exe"
-  "Lab_5.exe.manifest"
-  "Lab_5.lib"
+  "CMakeFiles/Lab_5.dir/integer-rep.c.o"
+  "Lab_5"
   "Lab_5.pdb"
 )
 
