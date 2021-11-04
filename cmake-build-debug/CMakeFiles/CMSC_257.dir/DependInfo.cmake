@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/masrikdahir/CLionProjects/Computer-System/Project_2/cmsc257-f21-p2.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/CMakeFiles/CMSC_257.dir/Project_2/cmsc257-f21-p2.c.o"
-  "/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/CMakeFiles/CMSC_257.dir/Project_2/p2-support.c.o"
+  "C:/Users/masri/CLionProjects/Computer-System/Project_2/cmsc257-f21-p2.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/CMakeFiles/CMSC_257.dir/Project_2/cmsc257-f21-p2.c.obj"
+  "C:/Users/masri/CLionProjects/Computer-System/Project_2/p2-support.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/CMakeFiles/CMSC_257.dir/Project_2/p2-support.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
