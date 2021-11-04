@@ -43,6 +43,6 @@ struct Mailbox
 // Outputs      : void
 
 void initialize (struct Mailbox *ib);
-
-//add other function declarations as needed
 void create_email(char sendeR[50], char recieveR[50], char subjecT[200], char bodY[2000], int montH,int daY, int yeaR, struct Mailbox *iB );
+//add other function declarations as needed
+

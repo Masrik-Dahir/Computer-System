@@ -1,4 +1,4 @@
-"/Users/masrikdahir/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/masrikdahir/CLionProjects/Computer-System
+C:\Users\masri\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\masri\CLionProjects\Computer-System
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug
+-- Build files have been written to: C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug
