@@ -5,11 +5,11 @@
 //Add program description, author name, last edit date as in project1
 //Add necessary include statements
 
-void
-initialize (struct Mailbox *ib)
+void initialize (struct Mailbox *ib)
 {
     //allocate memory for 2000 emails
-    ib->emails = malloc (sizeof (struct Email) * MAILBOX_SIZE);
+    int MAILBOX_SIZE = 200;
+    ib->emails = malloc(sizeof (struct Email) * MAILBOX_SIZE);
     ib->size = 0;
 
 
@@ -43,6 +43,9 @@ initialize (struct Mailbox *ib)
     create_email ("dboyle@mail.com", user_email, "Last email!",
                   "Body of tentth email. Coding is fun-tastic!",
                   3,15,2021, ib);
+
+}
+void create_email(){
 
 }
 

@@ -12,8 +12,12 @@
 //add other define Macros as needed
 
 struct Email
-{	 char sender[ADRESS_SIZE];
+{
+    char sender[ADRESS_SIZE];
     char receiver[ADRESS_SIZE];
+    struct Mailbox *ib;
+    struct Email *emails;
+
     //add other struct members as needed
     //consider adding a nested struct here
 
