@@ -15,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Lab_6/CMakeLists.txt"
   "../Lab_7/CMakeLists.txt"
   "../Project_1/CMakeLists.txt"
+  "../Project_2/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "/Users/masrikdahir/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCInformation.cmake"
@@ -55,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Lab_6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Lab_7/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Project_1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Project_2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -67,4 +69,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Lab_6/CMakeFiles/Lab_6.dir/DependInfo.cmake"
   "Lab_7/CMakeFiles/Lab_7.dir/DependInfo.cmake"
   "Project_1/CMakeFiles/Project_1.dir/DependInfo.cmake"
+  "Project_2/CMakeFiles/Project_2.dir/DependInfo.cmake"
   )

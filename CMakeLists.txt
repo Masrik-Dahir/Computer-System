@@ -10,6 +10,7 @@ add_subdirectory(Lab_5)
 add_subdirectory(Lab_6)
 add_subdirectory(Lab_7)
 add_subdirectory(Project_1)
+add_subdirectory(Project_2)
 
 
 # HW 5 Executable

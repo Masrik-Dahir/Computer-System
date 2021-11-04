@@ -56,6 +56,10 @@ void display_inbox_menu(struct Mailbox *pMailbox) {
 
 }
 
+void create_email(char sendeR[50], char recieveR[50], char subjecT[200], char bodY[2000], int montH,int daY, int yeaR, struct Mailbox *iB ){
+
+}
+
 
 
 

@@ -18,7 +18,7 @@ struct Email
     char subject[SUBJECT_SIZE];
     char body[BODY_SIZE];
     int ID;
-    struct Sent_date date;
+//    struct Sent_date date;
 
 
     //add other struct members as needed
@@ -43,6 +43,6 @@ struct Mailbox
 // Outputs      : void
 
 void initialize (struct Mailbox *ib);
-void create_email(char sendeR[50], char recieveR[50], char subjecT[200], char bodY[2000], int montH,int daY, int yeaR, struct Mailbox *iB )
-//add other function declarations as needed
 
+//add other function declarations as needed
+void create_email(char sendeR[50], char recieveR[50], char subjecT[200], char bodY[2000], int montH,int daY, int yeaR, struct Mailbox *iB );

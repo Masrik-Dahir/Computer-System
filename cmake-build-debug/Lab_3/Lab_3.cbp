@@ -5,7 +5,7 @@
 		<Option title="Lab_3"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\HW_5\;CMake Files\Lab_3\;CMake Files\Lab_4\;CMake Files\Lab_5\;CMake Files\Lab_6\;CMake Files\Lab_7\;CMake Files\Project_1\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\HW_5\;CMake Files\Lab_3\;CMake Files\Lab_4\;CMake Files\Lab_5\;CMake Files\Lab_6\;CMake Files\Lab_7\;CMake Files\Project_1\;CMake Files\Project_2\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3"/>
@@ -88,6 +88,9 @@
 		</Unit>
 		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Project_1\"/>
+		</Unit>
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Project_2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

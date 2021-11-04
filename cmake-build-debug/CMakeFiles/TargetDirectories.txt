@@ -22,3 +22,6 @@
 /Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/CMakeFiles/rebuild_cache.dir
 /Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/CMakeFiles/edit_cache.dir
 /Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/CMakeFiles/Project_1.dir
+/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/CMakeFiles/rebuild_cache.dir
+/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/CMakeFiles/edit_cache.dir
+/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/CMakeFiles/Project_2.dir

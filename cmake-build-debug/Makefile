@@ -220,6 +220,19 @@ Project_1/fast:
 	$(MAKE) $(MAKESILENT) -f Project_1/CMakeFiles/Project_1.dir/build.make Project_1/CMakeFiles/Project_1.dir/build
 .PHONY : Project_1/fast
 
+#=============================================================================
+# Target rules for targets named Project_2
+
+# Build rule for target.
+Project_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project_2
+.PHONY : Project_2
+
+# fast build rule for target.
+Project_2/fast:
+	$(MAKE) $(MAKESILENT) -f Project_2/CMakeFiles/Project_2.dir/build.make Project_2/CMakeFiles/Project_2.dir/build
+.PHONY : Project_2/fast
+
 Project_2/cmsc257-f21-p2.o: Project_2/cmsc257-f21-p2.c.o
 .PHONY : Project_2/cmsc257-f21-p2.o
 
@@ -284,6 +297,7 @@ help:
 	@echo "... Lab_6"
 	@echo "... Lab_7"
 	@echo "... Project_1"
+	@echo "... Project_2"
 	@echo "... Project_2/cmsc257-f21-p2.o"
 	@echo "... Project_2/cmsc257-f21-p2.i"
 	@echo "... Project_2/cmsc257-f21-p2.s"

@@ -5,7 +5,7 @@
 		<Option title="CMSC_257"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\HW_5\;CMake Files\Lab_3\;CMake Files\Lab_4\;CMake Files\Lab_5\;CMake Files\Lab_6\;CMake Files\Lab_7\;CMake Files\Project_1\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\HW_5\;CMake Files\Lab_3\;CMake Files\Lab_4\;CMake Files\Lab_5\;CMake Files\Lab_6\;CMake Files\Lab_7\;CMake Files\Project_1\;CMake Files\Project_2\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug"/>
@@ -341,6 +341,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Project_2">
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Project_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 Project_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_2/fast">
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Project_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 Project_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/HW_5/main.c">
 			<Option target="HW_5"/>
@@ -380,12 +418,15 @@
 		</Unit>
 		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/cmsc257-f21-p2.c">
 			<Option target="CMSC_257"/>
+			<Option target="Project_2"/>
 		</Unit>
 		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.c">
 			<Option target="CMSC_257"/>
+			<Option target="Project_2"/>
 		</Unit>
 		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.h">
 			<Option target="CMSC_257"/>
+			<Option target="Project_2"/>
 		</Unit>
 		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -410,6 +451,9 @@
 		</Unit>
 		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Project_1\"/>
+		</Unit>
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Project_2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
