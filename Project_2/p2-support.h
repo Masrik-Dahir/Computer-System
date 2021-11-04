@@ -15,8 +15,11 @@ struct Email
 {
     char sender[ADRESS_SIZE];
     char receiver[ADRESS_SIZE];
-    struct Mailbox *ib;
-    struct Email *emails;
+    char subject[SUBJECT_SIZE];
+    char body[BODY_SIZE];
+    int ID;
+    struct Sent_date date;
+
 
     //add other struct members as needed
     //consider adding a nested struct here
@@ -27,6 +30,7 @@ struct Mailbox
 {
     int size;
     //add other struct members as needed
+    struct Email *emails;
 };
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -39,6 +43,6 @@ struct Mailbox
 // Outputs      : void
 
 void initialize (struct Mailbox *ib);
-
+void create_email(char sendeR[50], char recieveR[50], char subjecT[200], char bodY[2000], int montH,int daY, int yeaR, struct Mailbox *iB )
 //add other function declarations as needed
 

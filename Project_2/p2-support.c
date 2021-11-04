@@ -5,17 +5,21 @@
 //Add program description, author name, last edit date as in project1
 //Add necessary include statements
 
+#include <stdlib.h>
+#include "p2-support.h"
+
+
 void initialize (struct Mailbox *ib)
 {
     //allocate memory for 2000 emails
-    int MAILBOX_SIZE = 200;
     ib->emails = malloc(sizeof (struct Email) * MAILBOX_SIZE);
     ib->size = 0;
 
 
+
     create_email ("asonmez@mail.com", user_email, "Welcome to your inbox.",
                   "Welcome to your inbox, just wanted to say hi. Here's hoping you get all your code done.",
-                  11,20,2020, ib);
+                  11, 20, 2020, ib);
     create_email ("mmartinez@mail.com", user_email, "Padding out your inbox.",
                   "Yet another email just to pad out your inbox, have fun!",
                   11,30,2020, ib);
@@ -45,8 +49,13 @@ void initialize (struct Mailbox *ib)
                   3,15,2021, ib);
 
 }
-void create_email(){
+
+
+
+void display_inbox_menu(struct Mailbox *pMailbox) {
 
 }
+
+
 
 

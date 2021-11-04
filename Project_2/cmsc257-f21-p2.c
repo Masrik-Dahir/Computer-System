@@ -9,6 +9,8 @@
 #include <stdlib.h>
 #include "p2-support.h"
 
+void display_inbox_menu(struct Mailbox *pMailbox);
+
 int main(){
     struct Mailbox* ib;
     ib = (struct Mailbox*) malloc(sizeof(struct Mailbox));
@@ -17,3 +19,4 @@ int main(){
     free (ib);
     return 0;
 }
+
