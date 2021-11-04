@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/masrikdahir/CLionProjects/Computer-System/Project_2/cmsc257-f21-p2.c
+stdio.h
+-
+stdlib.h
+-
+p2-support.h
+/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.h
+
+/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.c
+stdlib.h
+-
+p2-support.h
+/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.h
+
+/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.h
+
