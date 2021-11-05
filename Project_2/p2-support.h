@@ -3,28 +3,33 @@
 //
 
 #define MAILBOX_SIZE 2000
-#define ADRESS_SIZE 50
+#define ADDRESS_SIZE 50
 #define SUBJECT_SIZE 200
 #define BODY_SIZE 2000
 #define NAME_SIZE 20
 //CHANGE the email below to your vcu email
-#define user_email "e@mail.com"
+#define user_email "dahirma@vcu.edu"
 //add other define Macros as needed
 
 struct Email
 {
-    char sender[ADRESS_SIZE];
-    char receiver[ADRESS_SIZE];
+    char sender[ADDRESS_SIZE];
+    char receiver[ADDRESS_SIZE];
     char subject[SUBJECT_SIZE];
     char body[BODY_SIZE];
     int ID;
-//    struct Sent_date date;
+    struct sent_date{
+            int month;
+            int day;
+            int year;
+    }sent_date;
 
 
     //add other struct members as needed
     //consider adding a nested struct here
-
 };
+
+
 
 struct Mailbox
 {
@@ -43,6 +48,6 @@ struct Mailbox
 // Outputs      : void
 
 void initialize (struct Mailbox *ib);
-void create_email(char sendeR[50], char recieveR[50], char subjecT[200], char bodY[2000], int montH,int daY, int yeaR, struct Mailbox *iB );
+void create_email(char* sender, char* receiver, char* subject, char* body, int month, int day, int year, struct Mailbox *ib);
 //add other function declarations as needed
 

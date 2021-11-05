@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include "p2-support.h"
 
-void display_inbox_menu(struct Mailbox *pMailbox);
+void display_inbox_menu(struct Mailbox *ib);
 
 int main(){
     struct Mailbox* ib;

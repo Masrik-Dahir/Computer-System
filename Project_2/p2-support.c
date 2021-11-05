@@ -5,8 +5,10 @@
 //Add program description, author name, last edit date as in project1
 //Add necessary include statements
 
-#include <stdlib.h>
 #include "p2-support.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 void initialize (struct Mailbox *ib)
@@ -52,11 +54,144 @@ void initialize (struct Mailbox *ib)
 
 
 
-void display_inbox_menu(struct Mailbox *pMailbox) {
+void display_inbox_menu(struct Mailbox *ib) {
+    int ch = 8;
+    int j = 0;
+    while (ch != 7){
+        printf("***************   %s INBOX   ***************\n", user_email);
+        printf("***************   Total Inbox: %04d   ***************\n", ib -> size);
+        printf("1. Show Inbox\n");
+        printf("2. Show Email by ID\n");
+        printf("3. Sort Inbox by Sender\n");
+        printf("4. Sort inbox by ID\n");
+        printf("5. Search Inbox by Keyword\n");
+        printf("6. Delete\n");
+        printf("7. Exit\n");
+
+        scanf("%d", &ch);
+        while(getchar() != '\n');
+
+        switch(ch){
+            case 1:
+                printf("ID   Sender---------------   MM/DD/YYYY   SUBJECT-------- \n ");
+                printf("--   ---------------------   --/--/----   --------------- \n");
+                int i;
+
+                for(i = 0; i < ib->size; i++){
+                    char dest[SUBJECT_SIZE] = " ";
+                    strncpy(dest, ib->emails[i].subject, 15);
+
+                    printf("-%02d - %-20s - %02d/%02d/%d - %-s \n",ib->emails[i].ID ,ib->emails[i].sender, ib->emails[i].sent_date.month, ib->emails[i].sent_date.day, ib->emails[i].sent_date.year, dest);
+                    dest[15] = 0;
+                }
+
+                break;
+
+            case 2:
+                printf("Enter the ID of the email you want to read\n");
+                int k;
+                scanf("%d", &k);
+                char dest2[SUBJECT_SIZE];
+                strncpy(dest2, ib->emails[k].subject, 25);
+                printf("%s - %s \nEmail Received on: %02d/%02d/%d \n%s\n", ib->emails[k].sender, dest2, ib->emails[k].sent_date.month,
+                       ib->emails[k].sent_date.day, ib->emails[k].sent_date.year, ib->emails[k].body);
+                break;
+
+            case 3:
+
+                for(i=0; i < ib -> size; i++){
+                    for(j = i+1; j < ib-> size; j++){
+
+                        if(strcmp(ib->emails[i].sender, ib->emails[j].sender) > 0 ){
+                            struct Email temp = ib->emails[i];
+                            ib->emails[i] = ib->emails[j];
+                            ib->emails[j] = temp;
+                        }
+                    }
+                }
+                break;
+
+            case 4:
+                for(i=0; i < ib -> size; i++){
+                    for(j = i+1; j < ib-> size; j++){
+                        if(ib->emails[i].sent_date.year >  ib->emails[j].sent_date.year){
+                            struct Email temp = ib->emails[i];
+                            ib->emails[i] = ib->emails[j];
+                            ib->emails[j] = temp;
+                        }
+
+                        if(ib->emails[i].sent_date.year == ib -> emails[j].sent_date.year
+                           && ib -> emails[i].sent_date.month > ib -> emails[j].sent_date.month){
+                            struct Email temp = ib->emails[i];
+                            ib->emails[i] = ib->emails[j];
+                            ib->emails[j] = temp;
+                        }
+
+                        if(ib->emails[i].sent_date.year == ib -> emails[j].sent_date.year
+                           && ib -> emails[i].sent_date.month == ib -> emails[j].sent_date.month
+                           && ib -> emails[i].sent_date.day > ib -> emails[j].sent_date.day){
+                            struct Email temp = ib->emails[i];
+                            ib->emails[i] = ib->emails[j];
+                            ib->emails[j] = temp;
+                        }
+
+                    }
+                }
+                break;
+
+            case 5:
+                printf("Enter the keyword you are searching for:\n");
+                char KW[20];
+                scanf("%s",KW);
+                printf("ID   Sender---------------   MM/DD/YYYY   SUBJECT-------- \n ");
+                printf("--   ---------------------   --/--/----   --------------- \n");
+
+                for(i=0; i< ib->size; i++){
+                    char* SKW = strcasestr(ib->emails[i].sender, KW);
+                    char* SBKW = strcasestr(ib->emails[i].subject, KW);
+                    char* BKW = strcasestr(ib->emails[i].body, KW);
+                    if (SKW != NULL || SBKW != NULL || BKW != NULL){
+
+                        printf("-%02d - %-20s - %02d/%02d/%d - %-s \n",ib -> emails[i].ID ,ib->emails[i].sender,
+                               ib->emails[i].sent_date.month,ib->emails[i].sent_date.day, ib->emails[i].sent_date.year,
+                               ib->emails[i].subject);
+
+                    }
+                }
+                break;
+
+            case 6:
+                printf("Enter the ID of the e-mail you want to delete:\n");
+                int DID;
+                scanf("%d", &DID);
+                for(i=0; i< ib->size; i++){
+                    if(ib->emails[i].ID == DID){
+                        for(j= i; j < ib->size - 1; j++){
+                            ib->emails[j] = ib->emails[j + 1];
+                        }
+                    }
+                }
+                ib->size--;
+                printf("Email with ID = %d is deleted\n", DID);
+        }
+    }
+    free(ib->emails);
+    printf("Exiting e-mail client - Good Bye!\n");
 
 }
 
-void create_email(char sendeR[50], char recieveR[50], char subjecT[200], char bodY[2000], int montH,int daY, int yeaR, struct Mailbox *iB ){
+void create_email(char* sender, char* receiver, char* subject, char* body, int month, int day, int year, struct Mailbox *ib){
+    int count = ib -> size;
+    strncpy(ib -> emails[count].sender, sender, ADDRESS_SIZE);
+    strncpy(ib -> emails[count].receiver, receiver, ADDRESS_SIZE);
+    strncpy(ib -> emails[count].subject, subject, SUBJECT_SIZE);
+    strncpy(ib -> emails[count].body, body, BODY_SIZE);
+    ib -> emails[count].sent_date.month = month;
+    ib -> emails[count].sent_date.day = day;
+    ib -> emails[count].sent_date.year = year;
+    ib -> emails[count].ID = count;
+    ib -> size++;
+    // ib -> size = ib -> size + 1
 
 }
 
