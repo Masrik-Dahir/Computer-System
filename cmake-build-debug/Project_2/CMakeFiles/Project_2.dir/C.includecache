@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/masrikdahir/CLionProjects/Computer-System/Project_2/cmsc257-f21-p2.c
+C:/Users/masri/CLionProjects/Computer-System/Project_2/p2-support.c
+p2-support.h
+C:/Users/masri/CLionProjects/Computer-System/Project_2/p2-support.h
 stdio.h
 -
 stdlib.h
 -
-p2-support.h
-/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.h
-
-/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.c
-stdlib.h
+string.h
 -
-p2-support.h
-/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.h
 
-/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.h
+C:/Users/masri/CLionProjects/Computer-System/Project_2/p2-support.h
 

@@ -1,8 +1,11 @@
+////////////////////////////////////////////////////////////////////////
 //
-// Created by Masrik Ahmed Dahir on 11/3/21.
+// File          : cmsc257-f21-p2.c
+// Description   : This is a part of the starter code for CMSC 257 project 2
 //
-
-//Add program description, author name, last edit date as in the project1
+// Author        : Masrik Dahir
+// Last Modified : 10/13/2021
+///////////////////////////////////////////////////////////////////////
 //Do not modify anything below this line
 
 #include <stdio.h>

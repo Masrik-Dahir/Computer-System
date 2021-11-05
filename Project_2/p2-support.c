@@ -1,22 +1,23 @@
+////////////////////////////////////////////////////////////////////////
 //
-// Created by Masrik Ahmed Dahir on 11/3/21.
-//
-
-//Add program description, author name, last edit date as in project1
-//Add necessary include statements
+// File           : p2-support.c
+// Description    : This is a set of general-purpose utility functions
+//									we use for the 257 project #2.
+// Author		  : Masrik Dahir
+// Date			  : 11/05/2021
+// Notes		  :
+////////////////////////////////////////////////////////////////////////
 
 #include "p2-support.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-
 void initialize (struct Mailbox *ib)
 {
     //allocate memory for 2000 emails
     ib->emails = malloc(sizeof (struct Email) * MAILBOX_SIZE);
     ib->size = 0;
-
 
 
     create_email ("asonmez@mail.com", user_email, "Welcome to your inbox.",
@@ -53,7 +54,6 @@ void initialize (struct Mailbox *ib)
 }
 
 
-
 void display_inbox_menu(struct Mailbox *ib) {
     int ch = 8;
     int j = 0;
@@ -78,23 +78,23 @@ void display_inbox_menu(struct Mailbox *ib) {
                 int i;
 
                 for(i = 0; i < ib->size; i++){
-                    char dest[SUBJECT_SIZE] = " ";
-                    strncpy(dest, ib->emails[i].subject, 15);
+                    char show_sub[SUBJECT_SIZE] = " ";
+                    strncpy(show_sub, ib->emails[i].subject, 15);
 
-                    printf("-%02d - %-20s - %02d/%02d/%d - %-s \n",ib->emails[i].ID ,ib->emails[i].sender, ib->emails[i].sent_date.month, ib->emails[i].sent_date.day, ib->emails[i].sent_date.year, dest);
-                    dest[15] = 0;
+                    printf("-%02d - %-20s - %02d/%02d/%d - %-s \n",ib->emails[i].ID ,ib->emails[i].sender, ib->emails[i].sent_date.month, ib->emails[i].sent_date.day, ib->emails[i].sent_date.year, show_sub);
+                    show_sub[15] = 0;
                 }
 
                 break;
 
             case 2:
                 printf("Enter the ID of the email you want to read\n");
-                int k;
-                scanf("%d", &k);
-                char dest2[SUBJECT_SIZE];
-                strncpy(dest2, ib->emails[k].subject, 25);
-                printf("%s - %s \nEmail Received on: %02d/%02d/%d \n%s\n", ib->emails[k].sender, dest2, ib->emails[k].sent_date.month,
-                       ib->emails[k].sent_date.day, ib->emails[k].sent_date.year, ib->emails[k].body);
+                int index;
+                scanf("%d", &index);
+                char sub[SUBJECT_SIZE];
+                strncpy(sub, ib->emails[index].subject, 25);
+                printf("%s - %s \nEmail Received on: %02d/%02d/%d \n%s\n", ib->emails[index].sender, sub, ib->emails[index].sent_date.month,
+                       ib->emails[index].sent_date.day, ib->emails[index].sent_date.year, ib->emails[index].body);
                 break;
 
             case 3:
@@ -147,38 +147,38 @@ void display_inbox_menu(struct Mailbox *ib) {
                 printf("--   ---------------------   --/--/----   --------------- \n");
 
                 for(i=0; i< ib->size; i++){
-                    char* SKW = strcasestr(ib->emails[i].sender, KW);
-                    char* SBKW = strcasestr(ib->emails[i].subject, KW);
-                    char* BKW = strcasestr(ib->emails[i].body, KW);
-                    if (SKW != NULL || SBKW != NULL || BKW != NULL){
+                    char* first = strstr(ib->emails[i].sender, KW);
+                    char* second = strstr(ib->emails[i].subject, KW);
+                    char* third = strstr(ib->emails[i].body, KW);
+                    if (first != NULL || second != NULL || third != NULL){
 
                         printf("-%02d - %-20s - %02d/%02d/%d - %-s \n",ib -> emails[i].ID ,ib->emails[i].sender,
                                ib->emails[i].sent_date.month,ib->emails[i].sent_date.day, ib->emails[i].sent_date.year,
                                ib->emails[i].subject);
-
                     }
                 }
                 break;
 
             case 6:
                 printf("Enter the ID of the e-mail you want to delete:\n");
-                int DID;
-                scanf("%d", &DID);
+                int v_id;
+                scanf("%d", &v_id);
                 for(i=0; i< ib->size; i++){
-                    if(ib->emails[i].ID == DID){
+                    if(ib->emails[i].ID == v_id){
                         for(j= i; j < ib->size - 1; j++){
                             ib->emails[j] = ib->emails[j + 1];
                         }
                     }
                 }
                 ib->size--;
-                printf("Email with ID = %d is deleted\n", DID);
+                printf("Email with ID = %d is deleted\n", v_id);
         }
     }
     free(ib->emails);
     printf("Exiting e-mail client - Good Bye!\n");
 
 }
+
 
 void create_email(char* sender, char* receiver, char* subject, char* body, int month, int day, int year, struct Mailbox *ib){
     int count = ib -> size;
@@ -191,8 +191,6 @@ void create_email(char* sender, char* receiver, char* subject, char* body, int m
     ib -> emails[count].sent_date.year = year;
     ib -> emails[count].ID = count;
     ib -> size++;
-    // ib -> size = ib -> size + 1
-
 }
 
 
