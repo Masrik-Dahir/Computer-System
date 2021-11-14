@@ -233,6 +233,19 @@ Lab_9/fast:
 .PHONY : Lab_9/fast
 
 #=============================================================================
+# Target rules for targets named Lab_10
+
+# Build rule for target.
+Lab_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lab_10
+.PHONY : Lab_10
+
+# fast build rule for target.
+Lab_10/fast:
+	$(MAKE) $(MAKESILENT) -f Lab_10\CMakeFiles\Lab_10.dir\build.make Lab_10/CMakeFiles/Lab_10.dir/build
+.PHONY : Lab_10/fast
+
+#=============================================================================
 # Target rules for targets named Project_1
 
 # Build rule for target.
@@ -257,6 +270,19 @@ Project_2: cmake_check_build_system
 Project_2/fast:
 	$(MAKE) $(MAKESILENT) -f Project_2\CMakeFiles\Project_2.dir\build.make Project_2/CMakeFiles/Project_2.dir/build
 .PHONY : Project_2/fast
+
+#=============================================================================
+# Target rules for targets named Project_3
+
+# Build rule for target.
+Project_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project_3
+.PHONY : Project_3
+
+# fast build rule for target.
+Project_3/fast:
+	$(MAKE) $(MAKESILENT) -f Project_3\CMakeFiles\Project_3.dir\build.make Project_3/CMakeFiles/Project_3.dir/build
+.PHONY : Project_3/fast
 
 Lab_8/sample.obj: Lab_8/sample.c.obj
 .PHONY : Lab_8/sample.obj
@@ -292,6 +318,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... CMSC_257
 	@echo ... HW_5
+	@echo ... Lab_10
 	@echo ... Lab_3
 	@echo ... Lab_4
 	@echo ... Lab_5
@@ -301,6 +328,7 @@ help:
 	@echo ... Lab_9
 	@echo ... Project_1
 	@echo ... Project_2
+	@echo ... Project_3
 	@echo ... Lab_8/sample.obj
 	@echo ... Lab_8/sample.i
 	@echo ... Lab_8/sample.s

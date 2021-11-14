@@ -11,8 +11,10 @@ add_subdirectory(Lab_6)
 add_subdirectory(Lab_7)
 add_subdirectory(Lab_8)
 add_subdirectory(Lab_9)
+add_subdirectory(Lab_10)
 add_subdirectory(Project_1)
 add_subdirectory(Project_2)
+add_subdirectory(Project_3)
 
 
 # HW 5 Executable
@@ -39,11 +41,17 @@ add_executable(${PROJECT_NAME} Lab_8 Lab_8/sample.c)
 # Lab 9 Executable
 #add_executable(${PROJECT_NAME} Lab_9 Lab_9/lsh-master/src/main.c)
 
+# Lab 10 Executable
+#add_executable(${PROJECT_NAME} Lab_10 Lab_10/hellobug.c)
+
 # Project 1 Executable
 #add_executable(${PROJECT_NAME} Project_1 Project_1/p1-support.c Project_1/p1-support.h Project_1/cmsc257-f21-p1.c)
 
 # Project 2 Executable
 #add_executable(${PROJECT_NAME} Project_2 Project_2/p2-support.c Project_2/p2-support.h Project_2/cmsc257-f21-p2.c)
+
+# Project 3 Executable
+#add_executable(${PROJECT_NAME} Project_3 Project_3/csapp.c Project_3/csapp.h Project_3/shellex.c)
 
 # Main
 #add_executable(Computer_System main.c)

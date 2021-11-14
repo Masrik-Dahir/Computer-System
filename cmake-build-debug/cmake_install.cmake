@@ -79,12 +79,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

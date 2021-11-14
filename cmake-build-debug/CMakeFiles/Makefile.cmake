@@ -29,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/masri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/win/share/cmake-3.20/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
   "../HW_5/CMakeLists.txt"
+  "../Lab_10/CMakeLists.txt"
   "../Lab_3/CMakeLists.txt"
   "../Lab_4/CMakeLists.txt"
   "../Lab_5/CMakeLists.txt"
@@ -38,6 +39,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Lab_9/CMakeLists.txt"
   "../Project_1/CMakeLists.txt"
   "../Project_2/CMakeLists.txt"
+  "../Project_3/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
@@ -60,8 +62,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Lab_7/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Lab_8/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Lab_9/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Lab_10/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Project_1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Project_2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Project_3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -75,6 +79,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "Lab_7/CMakeFiles/Lab_7.dir/DependInfo.cmake"
   "Lab_8/CMakeFiles/Lab_8.dir/DependInfo.cmake"
   "Lab_9/CMakeFiles/Lab_9.dir/DependInfo.cmake"
+  "Lab_10/CMakeFiles/Lab_10.dir/DependInfo.cmake"
   "Project_1/CMakeFiles/Project_1.dir/DependInfo.cmake"
   "Project_2/CMakeFiles/Project_2.dir/DependInfo.cmake"
+  "Project_3/CMakeFiles/Project_3.dir/DependInfo.cmake"
   )

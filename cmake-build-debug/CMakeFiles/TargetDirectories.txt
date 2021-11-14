@@ -25,9 +25,15 @@ C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/CMakeFiles/
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/CMakeFiles/edit_cache.dir
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/CMakeFiles/Lab_9.dir
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/CMakeFiles/rebuild_cache.dir
+C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/edit_cache.dir
+C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir
+C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/rebuild_cache.dir
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/CMakeFiles/Project_1.dir
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/CMakeFiles/edit_cache.dir
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/CMakeFiles/rebuild_cache.dir
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/CMakeFiles/Project_2.dir
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/CMakeFiles/edit_cache.dir
 C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/CMakeFiles/rebuild_cache.dir
+C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/CMakeFiles/edit_cache.dir
+C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/CMakeFiles/Project_3.dir
+C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/CMakeFiles/rebuild_cache.dir

@@ -231,6 +231,12 @@ HW_5_BINARY_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/cmake-build-
 HW_5_SOURCE_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/HW_5
 
 //Value Computed by CMake
+Lab_10_BINARY_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10
+
+//Value Computed by CMake
+Lab_10_SOURCE_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/Lab_10
+
+//Value Computed by CMake
 Lab_3_BINARY_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3
 
 //Value Computed by CMake
@@ -283,6 +289,12 @@ Project_2_BINARY_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/cmake-b
 
 //Value Computed by CMake
 Project_2_SOURCE_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/Project_2
+
+//Value Computed by CMake
+Project_3_BINARY_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3
+
+//Value Computed by CMake
+Project_3_SOURCE_DIR:STATIC=C:/Users/masri/CLionProjects/Computer-System/Project_3
 
 
 ########################
@@ -375,7 +387,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
