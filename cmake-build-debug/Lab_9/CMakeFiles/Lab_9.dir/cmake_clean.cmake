@@ -1,0 +1,38 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Lab_9.dir/lsh-master/src/main.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/env.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/exec_error.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/execl.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/execle.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/execlp.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/execv.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/execve.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/execvp.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/getenv.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Exec/system_use.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/GettingStarted/getpid.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/LetsFork/fork1.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/LetsFork/fork2.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/LetsFork/fork_ex.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Misc/whileLoop.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Shell/arguArray.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Shell/chdir.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Shell/getcwd.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Shell/setenv.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Signals/custom.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Signals/kill.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Signals/sigign.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Wait/problematic2.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Wait/sleep.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Wait/wait.c.obj"
+  "CMakeFiles/Lab_9.dir/processes/Wait/waitpid.c.obj"
+  "Lab_9.exe"
+  "Lab_9.exe.manifest"
+  "Lab_9.pdb"
+  "libLab_9.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/Lab_9.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

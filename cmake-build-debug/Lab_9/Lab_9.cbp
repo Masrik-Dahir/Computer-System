@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab_9"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\HW_5\;CMake Files\Lab_3\;CMake Files\Lab_4\;CMake Files\Lab_5\;CMake Files\Lab_6\;CMake Files\Lab_7\;CMake Files\Lab_8\;CMake Files\Lab_9\;CMake Files\Project_1\;CMake Files\Project_2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_9">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Lab_9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 Lab_9"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_9/fast">
+				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Lab_9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 Lab_9/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/lsh-master/src/main.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/env.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/exec_error.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execl.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execle.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execlp.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execv.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execve.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execvp.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/getenv.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/system_use.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/GettingStarted/getpid.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork1.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork2.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork_ex.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Misc/whileLoop.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Shell/arguArray.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Shell/chdir.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Shell/getcwd.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Shell/setenv.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Signals/custom.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Signals/kill.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Signals/sigign.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/problematic">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/problematic2.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/sleep.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/wait.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/waitpid.c">
+			<Option target="Lab_9"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/HW_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\HW_5\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_3\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_4\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_5\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_6\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_7\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_8\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab_9\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Project_1\"/>
+		</Unit>
+		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Project_2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

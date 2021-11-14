@@ -207,6 +207,32 @@ Lab_7/fast:
 .PHONY : Lab_7/fast
 
 #=============================================================================
+# Target rules for targets named Lab_8
+
+# Build rule for target.
+Lab_8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lab_8
+.PHONY : Lab_8
+
+# fast build rule for target.
+Lab_8/fast:
+	$(MAKE) $(MAKESILENT) -f Lab_8\CMakeFiles\Lab_8.dir\build.make Lab_8/CMakeFiles/Lab_8.dir/build
+.PHONY : Lab_8/fast
+
+#=============================================================================
+# Target rules for targets named Lab_9
+
+# Build rule for target.
+Lab_9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lab_9
+.PHONY : Lab_9
+
+# fast build rule for target.
+Lab_9/fast:
+	$(MAKE) $(MAKESILENT) -f Lab_9\CMakeFiles\Lab_9.dir\build.make Lab_9/CMakeFiles/Lab_9.dir/build
+.PHONY : Lab_9/fast
+
+#=============================================================================
 # Target rules for targets named Project_1
 
 # Build rule for target.
@@ -232,53 +258,29 @@ Project_2/fast:
 	$(MAKE) $(MAKESILENT) -f Project_2\CMakeFiles\Project_2.dir\build.make Project_2/CMakeFiles/Project_2.dir/build
 .PHONY : Project_2/fast
 
-Project_2/cmsc257-f21-p2.obj: Project_2/cmsc257-f21-p2.c.obj
-.PHONY : Project_2/cmsc257-f21-p2.obj
+Lab_8/sample.obj: Lab_8/sample.c.obj
+.PHONY : Lab_8/sample.obj
 
 # target to build an object file
-Project_2/cmsc257-f21-p2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Project_2/cmsc257-f21-p2.c.obj
-.PHONY : Project_2/cmsc257-f21-p2.c.obj
+Lab_8/sample.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Lab_8/sample.c.obj
+.PHONY : Lab_8/sample.c.obj
 
-Project_2/cmsc257-f21-p2.i: Project_2/cmsc257-f21-p2.c.i
-.PHONY : Project_2/cmsc257-f21-p2.i
-
-# target to preprocess a source file
-Project_2/cmsc257-f21-p2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Project_2/cmsc257-f21-p2.c.i
-.PHONY : Project_2/cmsc257-f21-p2.c.i
-
-Project_2/cmsc257-f21-p2.s: Project_2/cmsc257-f21-p2.c.s
-.PHONY : Project_2/cmsc257-f21-p2.s
-
-# target to generate assembly for a file
-Project_2/cmsc257-f21-p2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Project_2/cmsc257-f21-p2.c.s
-.PHONY : Project_2/cmsc257-f21-p2.c.s
-
-Project_2/p2-support.obj: Project_2/p2-support.c.obj
-.PHONY : Project_2/p2-support.obj
-
-# target to build an object file
-Project_2/p2-support.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Project_2/p2-support.c.obj
-.PHONY : Project_2/p2-support.c.obj
-
-Project_2/p2-support.i: Project_2/p2-support.c.i
-.PHONY : Project_2/p2-support.i
+Lab_8/sample.i: Lab_8/sample.c.i
+.PHONY : Lab_8/sample.i
 
 # target to preprocess a source file
-Project_2/p2-support.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Project_2/p2-support.c.i
-.PHONY : Project_2/p2-support.c.i
+Lab_8/sample.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Lab_8/sample.c.i
+.PHONY : Lab_8/sample.c.i
 
-Project_2/p2-support.s: Project_2/p2-support.c.s
-.PHONY : Project_2/p2-support.s
+Lab_8/sample.s: Lab_8/sample.c.s
+.PHONY : Lab_8/sample.s
 
 # target to generate assembly for a file
-Project_2/p2-support.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Project_2/p2-support.c.s
-.PHONY : Project_2/p2-support.c.s
+Lab_8/sample.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Lab_8/sample.c.s
+.PHONY : Lab_8/sample.c.s
 
 # Help Target
 help:
@@ -295,14 +297,13 @@ help:
 	@echo ... Lab_5
 	@echo ... Lab_6
 	@echo ... Lab_7
+	@echo ... Lab_8
+	@echo ... Lab_9
 	@echo ... Project_1
 	@echo ... Project_2
-	@echo ... Project_2/cmsc257-f21-p2.obj
-	@echo ... Project_2/cmsc257-f21-p2.i
-	@echo ... Project_2/cmsc257-f21-p2.s
-	@echo ... Project_2/p2-support.obj
-	@echo ... Project_2/p2-support.i
-	@echo ... Project_2/p2-support.s
+	@echo ... Lab_8/sample.obj
+	@echo ... Lab_8/sample.i
+	@echo ... Lab_8/sample.s
 .PHONY : help
 
 
