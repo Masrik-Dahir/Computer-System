@@ -40,6 +40,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Project_1/CMakeLists.txt"
   "../Project_2/CMakeLists.txt"
   "../Project_3/CMakeLists.txt"
+  "../Test_2/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
@@ -66,6 +67,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Project_1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Project_2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Project_3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Test_2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -83,4 +85,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Project_1/CMakeFiles/Project_1.dir/DependInfo.cmake"
   "Project_2/CMakeFiles/Project_2.dir/DependInfo.cmake"
   "Project_3/CMakeFiles/Project_3.dir/DependInfo.cmake"
+  "Test_2/CMakeFiles/Test_2.dir/DependInfo.cmake"
   )

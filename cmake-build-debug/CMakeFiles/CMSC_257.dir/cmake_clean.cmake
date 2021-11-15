@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CMSC_257.exe"
   "CMSC_257.exe.manifest"
   "CMSC_257.pdb"
-  "CMakeFiles/CMSC_257.dir/Lab_8/sample.c.obj"
+  "CMakeFiles/CMSC_257.dir/Test_2/main.c.obj"
   "libCMSC_257.dll.a"
 )
 

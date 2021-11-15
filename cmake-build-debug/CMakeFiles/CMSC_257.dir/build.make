@@ -65,27 +65,27 @@ include CMakeFiles/CMSC_257.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CMSC_257.dir/flags.make
 
-CMakeFiles/CMSC_257.dir/Lab_8/sample.c.obj: CMakeFiles/CMSC_257.dir/flags.make
-CMakeFiles/CMSC_257.dir/Lab_8/sample.c.obj: ../Lab_8/sample.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CMSC_257.dir/Lab_8/sample.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CMSC_257.dir\Lab_8\sample.c.obj -c C:\Users\masri\CLionProjects\Computer-System\Lab_8\sample.c
+CMakeFiles/CMSC_257.dir/Test_2/main.c.obj: CMakeFiles/CMSC_257.dir/flags.make
+CMakeFiles/CMSC_257.dir/Test_2/main.c.obj: ../Test_2/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CMSC_257.dir/Test_2/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CMSC_257.dir\Test_2\main.c.obj -c C:\Users\masri\CLionProjects\Computer-System\Test_2\main.c
 
-CMakeFiles/CMSC_257.dir/Lab_8/sample.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CMSC_257.dir/Lab_8/sample.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\masri\CLionProjects\Computer-System\Lab_8\sample.c > CMakeFiles\CMSC_257.dir\Lab_8\sample.c.i
+CMakeFiles/CMSC_257.dir/Test_2/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CMSC_257.dir/Test_2/main.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\masri\CLionProjects\Computer-System\Test_2\main.c > CMakeFiles\CMSC_257.dir\Test_2\main.c.i
 
-CMakeFiles/CMSC_257.dir/Lab_8/sample.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CMSC_257.dir/Lab_8/sample.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\masri\CLionProjects\Computer-System\Lab_8\sample.c -o CMakeFiles\CMSC_257.dir\Lab_8\sample.c.s
+CMakeFiles/CMSC_257.dir/Test_2/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CMSC_257.dir/Test_2/main.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\masri\CLionProjects\Computer-System\Test_2\main.c -o CMakeFiles\CMSC_257.dir\Test_2\main.c.s
 
 # Object files for target CMSC_257
 CMSC_257_OBJECTS = \
-"CMakeFiles/CMSC_257.dir/Lab_8/sample.c.obj"
+"CMakeFiles/CMSC_257.dir/Test_2/main.c.obj"
 
 # External object files for target CMSC_257
 CMSC_257_EXTERNAL_OBJECTS =
 
-CMSC_257.exe: CMakeFiles/CMSC_257.dir/Lab_8/sample.c.obj
+CMSC_257.exe: CMakeFiles/CMSC_257.dir/Test_2/main.c.obj
 CMSC_257.exe: CMakeFiles/CMSC_257.dir/build.make
 CMSC_257.exe: CMakeFiles/CMSC_257.dir/linklibs.rsp
 CMSC_257.exe: CMakeFiles/CMSC_257.dir/objects1.rsp

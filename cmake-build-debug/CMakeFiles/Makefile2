@@ -75,6 +75,7 @@ all: Lab_10/all
 all: Project_1/all
 all: Project_2/all
 all: Project_3/all
+all: Test_2/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -90,6 +91,7 @@ preinstall: Lab_10/preinstall
 preinstall: Project_1/preinstall
 preinstall: Project_2/preinstall
 preinstall: Project_3/preinstall
+preinstall: Test_2/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -106,6 +108,7 @@ clean: Lab_10/clean
 clean: Project_1/clean
 clean: Project_2/clean
 clean: Project_3/clean
+clean: Test_2/clean
 .PHONY : clean
 
 #=============================================================================
@@ -287,6 +290,21 @@ Project_3/preinstall:
 # Recursive "clean" directory target.
 Project_3/clean: Project_3/CMakeFiles/Project_3.dir/clean
 .PHONY : Project_3/clean
+
+#=============================================================================
+# Directory level rules for directory Test_2
+
+# Recursive "all" directory target.
+Test_2/all: Test_2/CMakeFiles/Test_2.dir/all
+.PHONY : Test_2/all
+
+# Recursive "preinstall" directory target.
+Test_2/preinstall:
+.PHONY : Test_2/preinstall
+
+# Recursive "clean" directory target.
+Test_2/clean: Test_2/CMakeFiles/Test_2.dir/clean
+.PHONY : Test_2/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CMSC_257.dir
@@ -625,6 +643,32 @@ Project_3: Project_3/CMakeFiles/Project_3.dir/rule
 Project_3/CMakeFiles/Project_3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Project_3\CMakeFiles\Project_3.dir\build.make Project_3/CMakeFiles/Project_3.dir/clean
 .PHONY : Project_3/CMakeFiles/Project_3.dir/clean
+
+#=============================================================================
+# Target rules for target Test_2/CMakeFiles/Test_2.dir
+
+# All Build rule for target.
+Test_2/CMakeFiles/Test_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f Test_2\CMakeFiles\Test_2.dir\build.make Test_2/CMakeFiles/Test_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f Test_2\CMakeFiles\Test_2.dir\build.make Test_2/CMakeFiles/Test_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\CMakeFiles --progress-num=60,61 "Built target Test_2"
+.PHONY : Test_2/CMakeFiles/Test_2.dir/all
+
+# Build rule for subdir invocation for target.
+Test_2/CMakeFiles/Test_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test_2/CMakeFiles/Test_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\masri\CLionProjects\Computer-System\cmake-build-debug\CMakeFiles 0
+.PHONY : Test_2/CMakeFiles/Test_2.dir/rule
+
+# Convenience name for target.
+Test_2: Test_2/CMakeFiles/Test_2.dir/rule
+.PHONY : Test_2
+
+# clean rule for target.
+Test_2/CMakeFiles/Test_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Test_2\CMakeFiles\Test_2.dir\build.make Test_2/CMakeFiles/Test_2.dir/clean
+.PHONY : Test_2/CMakeFiles/Test_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

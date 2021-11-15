@@ -284,29 +284,42 @@ Project_3/fast:
 	$(MAKE) $(MAKESILENT) -f Project_3\CMakeFiles\Project_3.dir\build.make Project_3/CMakeFiles/Project_3.dir/build
 .PHONY : Project_3/fast
 
-Lab_8/sample.obj: Lab_8/sample.c.obj
-.PHONY : Lab_8/sample.obj
+#=============================================================================
+# Target rules for targets named Test_2
+
+# Build rule for target.
+Test_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test_2
+.PHONY : Test_2
+
+# fast build rule for target.
+Test_2/fast:
+	$(MAKE) $(MAKESILENT) -f Test_2\CMakeFiles\Test_2.dir\build.make Test_2/CMakeFiles/Test_2.dir/build
+.PHONY : Test_2/fast
+
+Test_2/main.obj: Test_2/main.c.obj
+.PHONY : Test_2/main.obj
 
 # target to build an object file
-Lab_8/sample.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Lab_8/sample.c.obj
-.PHONY : Lab_8/sample.c.obj
+Test_2/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Test_2/main.c.obj
+.PHONY : Test_2/main.c.obj
 
-Lab_8/sample.i: Lab_8/sample.c.i
-.PHONY : Lab_8/sample.i
+Test_2/main.i: Test_2/main.c.i
+.PHONY : Test_2/main.i
 
 # target to preprocess a source file
-Lab_8/sample.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Lab_8/sample.c.i
-.PHONY : Lab_8/sample.c.i
+Test_2/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Test_2/main.c.i
+.PHONY : Test_2/main.c.i
 
-Lab_8/sample.s: Lab_8/sample.c.s
-.PHONY : Lab_8/sample.s
+Test_2/main.s: Test_2/main.c.s
+.PHONY : Test_2/main.s
 
 # target to generate assembly for a file
-Lab_8/sample.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Lab_8/sample.c.s
-.PHONY : Lab_8/sample.c.s
+Test_2/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMSC_257.dir\build.make CMakeFiles/CMSC_257.dir/Test_2/main.c.s
+.PHONY : Test_2/main.c.s
 
 # Help Target
 help:
@@ -329,9 +342,10 @@ help:
 	@echo ... Project_1
 	@echo ... Project_2
 	@echo ... Project_3
-	@echo ... Lab_8/sample.obj
-	@echo ... Lab_8/sample.i
-	@echo ... Lab_8/sample.s
+	@echo ... Test_2
+	@echo ... Test_2/main.obj
+	@echo ... Test_2/main.i
+	@echo ... Test_2/main.s
 .PHONY : help
 
 
