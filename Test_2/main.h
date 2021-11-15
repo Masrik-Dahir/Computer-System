@@ -5,7 +5,7 @@
 #ifndef CMSC_257_MAIN_H
 #define CMSC_257_MAIN_H
 
-
+void print(int* array);
 
 
 
