@@ -5,6 +5,9 @@
 # include "stdio.h"
 # include "math.h"
 # include "stdlib.h"
+# include "string.h"
+# define LIMIT 5
+# define CUBE(x) x*x*x
 
 struct Point{
     int x,y;
@@ -17,8 +20,13 @@ enum State{
 };
 
 typedef char* String;
+typedef long long superlong;
 
-
+void space(int n){
+    for (int i = 0; i < n; i++){
+        printf("\n");
+    }
+}
 void print(int* array, int size){
     for (int index = 0; index < size; index ++){
         printf("%d ",array[index]);
@@ -71,8 +79,19 @@ int main(){
     printf("p2.x = %d, P4->x = %d,\np2.y = %d, P4->y = %d\n",P2.x, P4->x, P2.y, P4->y);
     printf("Working = %d, Failed = %d, Froze = %d\n",Working, Failed, Froze);
 
-    String variable = "Any String you like, regardless of size";
+    String variable = "Any String you like, regardless of size\n";
     printf(variable);
+
+    for (int index = 0; index < LIMIT; index++){
+        printf("%d ",index);
+    }
+    space(1);
+    printf("%d",CUBE(5));
+    space(1);
+    printf("%d", strcmp("asx","asc"));
+
+
+
 }
 
 
