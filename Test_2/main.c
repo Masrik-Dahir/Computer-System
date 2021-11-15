@@ -12,6 +12,12 @@ struct Point{
 struct Point *P3 = &P1;
 struct Point *P4 = &P2;
 
+enum State{
+    Working = 1, Froze = 0, Failed = -1
+};
+
+typedef char* String;
+
 
 void print(int* array, int size){
     for (int index = 0; index < size; index ++){
@@ -41,6 +47,9 @@ int main(){
 
 //    Reallocating memory via realloc
     int* B = (int*) realloc(A,2*n*sizeof(int));
+    for (int index = n; index < 2*n; index++){
+        A[index] = index + 101;
+    }
     print(B, 2*n);
 
 
@@ -59,8 +68,11 @@ int main(){
      */
 
     printf("p1.x = %d, P3->x = %d,\np1.y = %d, P3->y = %d\n",P1.x, P3->x, P1.y, P3->y);
-    printf("p2.x = %d, P4->x = %d,\np2.y = %d, P4->y = %d",P2.x, P4->x, P2.y, P4->y);
+    printf("p2.x = %d, P4->x = %d,\np2.y = %d, P4->y = %d\n",P2.x, P4->x, P2.y, P4->y);
+    printf("Working = %d, Failed = %d, Froze = %d\n",Working, Failed, Froze);
 
+    String variable = "Any String you like, regardless of size";
+    printf(variable);
 }
 
 
