@@ -6,6 +6,12 @@
 # include "math.h"
 # include "stdlib.h"
 
+struct Point{
+    int x,y;
+} P1 = {233, 45}, P2 = {23, 43};
+struct Point *P3 = &P1;
+struct Point *P4 = &P2;
+
 
 void print(int* array, int size){
     for (int index = 0; index < size; index ++){
@@ -52,6 +58,8 @@ int main(){
      * int* B = (int*) realloc(Null,m*sizeof(int)) --> equivalent to malloc
      */
 
+    printf("p1.x = %d, P3->x = %d,\np1.y = %d, P3->y = %d\n",P1.x, P3->x, P1.y, P3->y);
+    printf("p2.x = %d, P4->x = %d,\np2.y = %d, P4->y = %d",P2.x, P4->x, P2.y, P4->y);
 
 }
 
