@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
         }
         else                                                //default set to my257sh
         {
-            printf("my257sh> ");
+            printf("257sh> ");
         }
         Fgets(cmdline, MAXLINE, stdin);
         if (feof(stdin))
@@ -38,7 +38,6 @@ int main(int argc, char *argv[])
     }
 }
 /* $end shellmain */
-
 /* $begin eval */
 /* eval - Evaluate a command line */
 void eval(char *cmdline)
@@ -59,6 +58,7 @@ void eval(char *cmdline)
         { /* Child runs user job */                 //parent and child diverge
             if (execvp(argv[0], argv) < 0)
             {
+                printf("%s\n","Execution failed (in fork)");
                 printf("%s: Command not found.\n", argv[0]);
                 exit(1);
             }
@@ -86,7 +86,8 @@ void eval(char *cmdline)
 int builtin_command(char **argv)
 {
     if (!strcmp(argv[0], "exit")) /* quit command */
-        exit(0);
+        raise(SIGTERM);
+
     if (!strcmp(argv[0], "&")) /* Ignore singleton & */
         return 1;
 
@@ -102,8 +103,8 @@ int builtin_command(char **argv)
     }
     if (!strcmp(argv[0], "help"))   //help command prints helpful guide.
     {
-        printf("Developer name is Shafi Hassan\n");
-        printf("You can change the shell prompt by first calling the executable my257sh then typing -p prompt.\nThis will set the commond prompt to whatever you inputted as prompt.\n");
+        printf("Developer name is Masrik Dahir\n");
+        printf("You can change the shell prompt by first calling the executable 257sh then typing -p prompt.\nThis will set the commond prompt to whatever you inputted as prompt.\n");
         printf("The built-in commands are exit to exit.\npid to print process id. ppid to print parent process id\ncd and cd <path> to print to and change current working directory\n");
         printf("Please use the man pages to get help if you are looking for non-built in commands\n");
         return 1;
@@ -114,10 +115,9 @@ int builtin_command(char **argv)
         if(argv[1] != NULL){
             int j = chdir(argv[1]);
             if(j == 0){
-             return 0;
+             return 1;
             }
-            else if (j != 0)
-            {
+            else {
                 printf("Change directory failed\n");
             }
         return 1;

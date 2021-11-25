@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab_3.dir/lab3main.c.obj"
-  "CMakeFiles/Lab_3.dir/lab3support.c.obj"
-  "Lab_3.exe"
-  "Lab_3.exe.manifest"
+  "CMakeFiles/Lab_3.dir/lab3main.c.o"
+  "CMakeFiles/Lab_3.dir/lab3support.c.o"
+  "Lab_3"
   "Lab_3.pdb"
-  "libLab_3.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

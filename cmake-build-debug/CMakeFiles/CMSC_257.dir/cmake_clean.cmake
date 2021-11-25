@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMSC_257.exe"
-  "CMSC_257.exe.manifest"
+  "CMSC_257"
   "CMSC_257.pdb"
-  "CMakeFiles/CMSC_257.dir/Test_2/main.c.obj"
-  "libCMSC_257.dll.a"
+  "CMakeFiles/CMSC_257.dir/Project_3/csapp.c.o"
+  "CMakeFiles/CMSC_257.dir/Project_3/shellex.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

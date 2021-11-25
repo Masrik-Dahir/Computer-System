@@ -8,744 +8,773 @@
 		<Option virtualFolders="CMake Files\;CMake Files\HW_5\;CMake Files\Lab_3\;CMake Files\Lab_4\;CMake Files\Lab_5\;CMake Files\Lab_6\;CMake Files\Lab_7\;CMake Files\Lab_8\;CMake Files\Lab_9\;CMake Files\Lab_10\;CMake Files\Project_1\;CMake Files\Project_2\;CMake Files\Project_3\;CMake Files\Test_2\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CMSC_257">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/CMSC_257.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMSC_257"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CMSC_257/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/CMSC_257.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMSC_257/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMSC_257">
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/CMSC_257" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMSC_257"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMSC_257/fast">
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/CMSC_257" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMSC_257/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HW_5">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/HW_5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/HW_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 HW_5"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 HW_5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HW_5/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/HW_5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/HW_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 HW_5/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 HW_5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/HW_5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_3">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Lab_3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Lab_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 Lab_3"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 Lab_3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_3/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Lab_3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Lab_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 Lab_3/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 Lab_3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_3/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_4">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Lab_4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Lab_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 Lab_4"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 Lab_4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_4/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Lab_4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Lab_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 Lab_4/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 Lab_4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_5">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Lab_5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Lab_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 Lab_5"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 Lab_5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_5/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Lab_5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Lab_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 Lab_5/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 Lab_5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_6">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Lab_6.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Lab_6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 Lab_6"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 Lab_6"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_6/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Lab_6.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Lab_6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 Lab_6/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 Lab_6/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_6/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_7">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Lab_7.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Lab_7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 Lab_7"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 Lab_7"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_7/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Lab_7.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Lab_7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 Lab_7/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 Lab_7/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_8">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Lab_8.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Lab_8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 Lab_8"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 Lab_8"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_8/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Lab_8.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Lab_8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 Lab_8/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 Lab_8/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_8/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_9">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Lab_9.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Lab_9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 Lab_9"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 Lab_9"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_9/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Lab_9.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Lab_9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 Lab_9/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 Lab_9/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_9/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_10">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Lab_10.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Lab_10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 Lab_10"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 Lab_10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab_10/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Lab_10.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Lab_10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 Lab_10/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 Lab_10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_1">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Project_1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 Project_1"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 Project_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_1/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Project_1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 Project_1/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 Project_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_2">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Project_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Project_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 Project_2"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 Project_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_2/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Project_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Project_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 Project_2/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 Project_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_3">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Project_3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Project_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 Project_3"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 Project_3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_3/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Project_3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Project_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 Project_3/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 Project_3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test_2">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Test_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Test_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 Test_2"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 Test_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test_2/fast">
-				<Option output="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Test_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2"/>
+				<Option output="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Test_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 Test_2/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 Test_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Test_2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/HW_5/main.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/HW_5/main.c">
 			<Option target="HW_5"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_10/csapp.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/csapp.c">
 			<Option target="Lab_10"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_10/csapp.h">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/csapp.h">
 			<Option target="Lab_10"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_10/hellobug.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/hellobug.c">
 			<Option target="Lab_10"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_10/race.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/race.c">
 			<Option target="Lab_10"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_10/semaphore.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/semaphore.c">
 			<Option target="Lab_10"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/lab3header.h">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_3/lab3header.h">
 			<Option target="Lab_3"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/lab3main.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_3/lab3main.c">
 			<Option target="Lab_3"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/lab3support.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_3/lab3support.c">
 			<Option target="Lab_3"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_4/lab4.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_4/lab4.c">
 			<Option target="Lab_4"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_5/integer-rep.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_5/integer-rep.c">
 			<Option target="Lab_5"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_6/dynamic.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_6/dynamic.c">
 			<Option target="Lab_6"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_7/lab7.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_7/lab7.c">
 			<Option target="Lab_7"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_8/sample.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_8/sample.c">
 			<Option target="Lab_8"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/lsh-master/src/main.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/lsh-master/src/main.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/env.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/env.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/exec_error.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/exec_error.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execl.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/execl.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execle.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/execle.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execlp.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/execlp.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execv.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/execv.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execve.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/execve.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/execvp.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/execvp.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/getenv.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/getenv.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Exec/system_use.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Exec/system_use.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/GettingStarted/getpid.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/GettingStarted/getpid.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork1.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork1.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork2.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork2.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork_ex.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/LetsFork/fork_ex.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Misc/whileLoop.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Misc/whileLoop.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Shell/arguArray.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Shell/arguArray.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Shell/chdir.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Shell/chdir.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Shell/getcwd.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Shell/getcwd.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Shell/setenv.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Shell/setenv.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Signals/custom.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Signals/custom.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Signals/kill.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Signals/kill.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Signals/sigign.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Signals/sigign.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/problematic">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Wait/problematic">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/problematic2.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Wait/problematic2.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/sleep.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Wait/sleep.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/wait.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Wait/wait.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/processes/Wait/waitpid.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/processes/Wait/waitpid.c">
 			<Option target="Lab_9"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/cmsc257-f21-p1.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_1/cmsc257-f21-p1.c">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/p1-support.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_1/p1-support.c">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/p1-support.h">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_1/p1-support.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_2/cmsc257-f21-p2.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/cmsc257-f21-p2.c">
 			<Option target="Project_2"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_2/p2-support.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.c">
 			<Option target="Project_2"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_2/p2-support.h">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/p2-support.h">
 			<Option target="Project_2"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_3/csapp.c">
-			<Option target="Project_3"/>
-		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_3/csapp.h">
-			<Option target="Project_3"/>
-		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_3/shellex.c">
-			<Option target="Project_3"/>
-		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Test_2">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_3">
 			<Option target="CMSC_257"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Test_2/main.c">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_3/csapp.c">
 			<Option target="CMSC_257"/>
+			<Option target="Project_3"/>
+		</Unit>
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_3/csapp.h">
+			<Option target="CMSC_257"/>
+			<Option target="Project_3"/>
+		</Unit>
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_3/shellex.c">
+			<Option target="CMSC_257"/>
+			<Option target="Project_3"/>
+		</Unit>
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Test_2/main.c">
 			<Option target="Test_2"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Test_2/main.h">
-			<Option target="CMSC_257"/>
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Test_2/main.h">
 			<Option target="Test_2"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/HW_5/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/HW_5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\HW_5\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_3/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab_3\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_4/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab_4\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_5/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab_5\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_6/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab_6\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_7/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_7/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab_7\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_8/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_8/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab_8\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_9/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_9/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab_9\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Lab_10/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab_10\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_1/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Project_1\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_2/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Project_2\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Project_3/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Project_3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Project_3\"/>
 		</Unit>
-		<Unit filename="C:/Users/masri/CLionProjects/Computer-System/Test_2/CMakeLists.txt">
+		<Unit filename="/Users/masrikdahir/CLionProjects/Computer-System/Test_2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Test_2\"/>
 		</Unit>
 	</Project>

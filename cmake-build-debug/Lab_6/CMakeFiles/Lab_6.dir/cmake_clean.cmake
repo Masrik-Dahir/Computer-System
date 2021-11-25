@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab_6.dir/dynamic.c.obj"
-  "Lab_6.exe"
-  "Lab_6.exe.manifest"
+  "CMakeFiles/Lab_6.dir/dynamic.c.o"
+  "Lab_6"
   "Lab_6.pdb"
-  "libLab_6.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

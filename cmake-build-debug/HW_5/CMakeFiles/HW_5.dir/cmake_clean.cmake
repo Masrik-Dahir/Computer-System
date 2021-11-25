@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HW_5.dir/main.c.obj"
-  "HW_5.exe"
-  "HW_5.exe.manifest"
+  "CMakeFiles/HW_5.dir/main.c.o"
+  "HW_5"
   "HW_5.pdb"
-  "libHW_5.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,10 +6,10 @@ CFLAGS = -c -g -Wall
 OBJECT_FILES = csapp.o shellex.o
 
 # Productions
-all: my257sh
+all: sh257
 
-my257sh : shellex.o csapp.o
-	gcc -pthread $(OBJECT_FILES) -o my257sh
+sh257 : shellex.o csapp.o
+	gcc -pthread $(OBJECT_FILES) -o sh257
 
 shellex.o : shellex.c csapp.h
 	$(CC) $(CFLAGS) shellex.c -o shellex.o
@@ -17,4 +17,4 @@ shellex.o : shellex.c csapp.h
 csapp.o : csapp.c csapp.h
 	$(CC) $(CFLAGS) csapp.c -o csapp.o
 clean: 
-	rm -v my257sh $(OBJECT_FILES)
+	rm -v sh257 $(OBJECT_FILES)

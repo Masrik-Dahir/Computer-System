@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Project_3.dir/csapp.c.obj"
-  "CMakeFiles/Project_3.dir/shellex.c.obj"
-  "Project_3.exe"
-  "Project_3.exe.manifest"
+  "CMakeFiles/Project_3.dir/csapp.c.o"
+  "CMakeFiles/Project_3.dir/shellex.c.o"
+  "Project_3"
   "Project_3.pdb"
-  "libProject_3.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

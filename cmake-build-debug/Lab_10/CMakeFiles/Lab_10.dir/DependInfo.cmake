@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/masri/CLionProjects/Computer-System/Lab_10/csapp.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir/csapp.c.obj"
-  "C:/Users/masri/CLionProjects/Computer-System/Lab_10/hellobug.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir/hellobug.c.obj"
-  "C:/Users/masri/CLionProjects/Computer-System/Lab_10/race.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir/race.c.obj"
-  "C:/Users/masri/CLionProjects/Computer-System/Lab_10/semaphore.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir/semaphore.c.obj"
+  "/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/csapp.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir/csapp.c.o"
+  "/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/hellobug.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir/hellobug.c.o"
+  "/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/race.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir/race.c.o"
+  "/Users/masrikdahir/CLionProjects/Computer-System/Lab_10/semaphore.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Lab_10/CMakeFiles/Lab_10.dir/semaphore.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/masri/CLionProjects/Computer-System/Project_3/csapp.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/CMakeFiles/Project_3.dir/csapp.c.obj"
-  "C:/Users/masri/CLionProjects/Computer-System/Project_3/shellex.c" "C:/Users/masri/CLionProjects/Computer-System/cmake-build-debug/Project_3/CMakeFiles/Project_3.dir/shellex.c.obj"
+  "/Users/masrikdahir/CLionProjects/Computer-System/Project_3/csapp.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/CMakeFiles/Project_3.dir/csapp.c.o"
+  "/Users/masrikdahir/CLionProjects/Computer-System/Project_3/shellex.c" "/Users/masrikdahir/CLionProjects/Computer-System/cmake-build-debug/Project_3/CMakeFiles/Project_3.dir/shellex.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

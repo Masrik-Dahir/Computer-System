@@ -1,3 +1,1 @@
-C:\Users\masri\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Lab_4.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\Lab_4.dir/objects.a @CMakeFiles\Lab_4.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Lab_4.dir/objects.a -Wl,--no-whole-archive -o Lab_4.exe -Wl,--out-implib,libLab_4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Lab_4.dir\linklibs.rsp
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Lab_4.dir/lab4.c.o -o Lab_4 

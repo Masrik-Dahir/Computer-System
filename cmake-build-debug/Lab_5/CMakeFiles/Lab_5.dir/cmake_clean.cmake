@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab_5.dir/integer-rep.c.obj"
-  "Lab_5.exe"
-  "Lab_5.exe.manifest"
+  "CMakeFiles/Lab_5.dir/integer-rep.c.o"
+  "Lab_5"
   "Lab_5.pdb"
-  "libLab_5.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
