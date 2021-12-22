@@ -46,13 +46,13 @@ add_subdirectory(Test_2)
 #add_executable(${PROJECT_NAME} Lab_10 Lab_10/hellobug.c)
 
 # Project 1 Executable
-#add_executable(${PROJECT_NAME} Project_1 Project_1/p1-support.c Project_1/p1-support.h Project_1/cmsc257-f21-p1.c)
+add_executable(${PROJECT_NAME} Project_1 Project_1/p1-support.c Project_1/p1-support.h Project_1/cmsc257-f21-p1.c)
 
 # Project 2 Executable
 #add_executable(${PROJECT_NAME} Project_2 Project_2/p2-support.c Project_2/p2-support.h Project_2/cmsc257-f21-p2.c)
 
 # Project 3 Executable
-add_executable(${PROJECT_NAME} Project_3 Project_3/csapp.c Project_3/csapp.h Project_3/shellex.c)
+#add_executable(${PROJECT_NAME} Project_3 Project_3/csapp.c Project_3/csapp.h Project_3/shellex.c)
 
 # Test 2 Executable
 #add_executable(${PROJECT_NAME} Test_2 Test_2/main.c Test_2/main.h Test_2/main.h)
